@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snazzy Paws Grooming Studio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="logo" class="navbar-brand">
+            <img src="img/logo.png" alt="Snazzy Paws Grooming" class="d-inline-block align-top">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navigation bar-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="/gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="/booking.html">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="/secure/StaffRoster.html">Staff Roster</a></li>
+                <li class="nav-item"><a class="nav-link" href="/PrivacyPolicy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contact" class="container mt-5">
+        <h1 class="h-primary text-center">Contact Us</h1>
+        <div id="contact-box" class="mt-4">
+            <form action="contact.html">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Phone Number: </label>
+                    <input type="tel" class="form-control" id="phonenumber" placeholder="Enter phone number">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment: </label>
+                    <textarea class="form-control" id="comment" rows="5" placeholder="Enter your comment"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <h1 class="text-center my-4">Find Us</h1>
+    <div class="container mb-5">
+        <div class="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6306.8541925453455!2d175.2738275756931!3d-37.780029471984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d18a106bbe933%3A0xa9301fdfc4d85681!2sVictoria%20Street%2C%20Hamilton!5e0!3m2!1sen!2snz!4v1735885411037!5m2!1sen!2snz"
+              width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <footer class="bg-light py-3">
+      <div class="container text-center">
+          Studio Opening hours: Monday to Saturday, 9 am to 5 pm.
+      </div>
+  </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
